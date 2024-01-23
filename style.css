@@ -3,6 +3,14 @@
   border: none;
 }
 
-.h-100v{
+.h-100v {
   height: 100vh;
+}
+
+#list > li .btn-close {
+  display: none;
+}
+
+#list > li:hover .btn-close {
+  display: block !important;
 }
