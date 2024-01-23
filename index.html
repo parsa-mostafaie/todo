@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Main Container -->
-    <div class="bg-secondary container p-3 user-select-none p-md-5">
+    <div class="bg-secondary container p-3 user-select-none p-md-5 d-flex flex-column h-100v rounded-3">
       <!-- Top Bar -->
       <div class="d-flex flex-md-row flex-column justify-content-center gap-1 mb-3 ">
         <input
@@ -33,12 +33,12 @@
       </div>
       <!-- Inner Container -->
       <div
-        class="d-flex align-items-center gap-1 text-white flex-column rounded bg-info"
+        class="d-flex align-items-center gap-1 text-white flex-column rounded bg-info flex-grow-1"
       >
         <h3>Todo List</h3>
         <p id="empty" class="text-center text-black fs-6">No Result Found</p>
         <ul
-          class="list-unstyled m-0 overflow-auto w-75 p-3 vh-75"
+          class="list-unstyled m-0 overflow-auto w-75 p-3"
           id="list"
         ></ul>
       </div>

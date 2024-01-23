@@ -1,8 +1,8 @@
-.vh-75 {
-  height: 75vh;
-}
-
 .no-outline {
   outline: none;
   border: none;
+}
+
+.h-100v{
+  height: 100vh;
 }
